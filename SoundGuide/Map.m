@@ -6,16 +6,17 @@
 //  Copyright © 2016年 Mac. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "Map.h"
 
-@interface FirstViewController ()
+@interface Map ()
 
 @end
 
-@implementation FirstViewController
+@implementation Map
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor greenColor]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
